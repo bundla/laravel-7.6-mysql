@@ -1,0 +1,12 @@
+version: "1"
+title: "Laravel 7.6 + MySQL"
+description: "Laravel 7.6, PHP 7.2, Nginx, MySQL."
+repository-url: https://github.com/laravel/laravel.git
+repository-version: ^7.6.0
+docker-compose:
+  modules:
+    bundla/m-app-php-7.2: ^1.0
+    bundla/m-nginx-latest: ^1.0
+    bundla/m-mysql-8.0: ^1.0
+composer:
+  install: true
